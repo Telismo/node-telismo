@@ -1,20 +1,20 @@
 {
   "name": "telismo",
-  "version": "0.1.0",
+  "version": "0.1.7",
   "description": "Node.js module to interact with the telismo API",
   "author": "Tarang Patel <you@tp.cm> (http://tarang.me)",
   "main": "lib/main",
   "keywords": [
     "telismo",
-    "meteor",
-    "outsource"
+    "outsource",
+    "calls"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/telismo/node-telismo.git"
   },
   "dependencies": {
-    "ddp": ">=0.3.4"
+    "ddp": "git://github.com/oortcloud/node-ddp-client.git"
   },
   "engines": {
     "node": "*"
